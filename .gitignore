@@ -3,7 +3,6 @@
 /public/storage
 /storage/*.key
 /vendor
-/public/img/upload/*
 .env
 .env.backup
 .phpunit.result.cache
@@ -13,4 +12,4 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
-public/image/upload/
+public/image/upload/*
