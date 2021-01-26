@@ -1,0 +1,1 @@
+{{-- <p>intentbot.blade</p> --}}

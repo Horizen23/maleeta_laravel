@@ -1,0 +1,233 @@
+.d_conclude{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 932px;
+
+}
+.d_conclude>p{
+    font-weight: 500;
+    font-size: 10.9197px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4C4C66;
+}
+.listconclue{
+
+    display:flex;
+    padding: 10px
+}
+.ccl{
+    position: relative;
+    display:flex;
+    margin-right: 20px;
+    color: #ffffff;
+    width: 350px;
+    height: 110px;
+    align-items: center;
+
+
+}
+
+.conclude{
+    padding-top: 2px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    width: 300px;
+    height: 110px;
+    display:flex;
+    background: #53B9EA;
+    border-radius: 9.09977px;
+    align-items: center;
+}
+.grah{
+    width: 60%;
+    
+}
+
+.gcanva{
+    padding-top: 10px;
+}
+.ccl>p{
+    font-size: 18.9197px;
+    line-height: 10px;
+    color: #FFFFFF;
+    opacity: 0.5;
+
+}
+.ccl>h1{
+    position: absolute;
+    font-weight: 500;
+    font-size: 17.4696px;
+    line-height: 19px;
+    color: #FFFFFF;
+    bottom: 8px;
+    right: 10px;
+
+}
+.conclude1>h1{
+    color: #4C4C66;
+    opacity: 0.7;
+
+}
+.ccl>p{
+    color: #4C4C66;
+    opacity: 0.3;
+}
+.conclude>p{
+    color: #ffffff;
+    opacity: 0.8;
+    font-size: 25px
+}
+.conclude1{
+    padding-top: 2px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    width: 300px;
+    height: 110px;
+    display:flex;
+    border: 0.909977px solid #E2E2E8;
+    box-sizing: border-box;
+    border-radius: 9.09977px;
+    color: #ffffff;
+    
+}
+
+.conclude2{
+    cursor: pointer;
+
+    display: flex;
+    border: 0.909977px dashed #E2E2E8;
+    box-sizing: border-box;
+    border-radius: 9.09977px;
+    align-items: center;
+    justify-content: center;
+}
+.conclude2>p{
+    
+    color: #4C4C66;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    font-size: 11.8297px;
+    line-height: 14px;
+}
+.mo1{
+    display: block;
+    width: 800px;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+.mo{
+    width: 900px;
+    padding: 20px 20px;
+    background: linear-gradient(190.57deg, rgba(255, 255, 255, 0.56) 19.25%, rgba(248, 248, 255, 0.71) 54.39%, rgba(255, 255, 255, 0.59) 90.02%);
+    box-shadow: 0px 0px 13.594px rgb(126 123 160 / 15%);
+    border-radius: 9.22518px;
+}
+.week{
+    opacity: 0.7;
+    margin-right: 10px;
+    background: #867f99;
+    height: 29px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    line-height: 29px;
+}
+.hgbar{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 25px;
+}
+.hgbar>p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4C4C66;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.flex{
+    display: flex;
+}
+
+.d_concludes>p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4C4C66;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+.acction{
+    flex-direction: column;
+    display: flex;
+    width: 350px;
+    margin-left: 5%;
+    background: linear-gradient(190.57deg, rgba(255, 255, 255, 0.56) 19.25%, rgba(248, 248, 255, 0.71) 54.39%, rgba(255, 255, 255, 0.59) 90.02%);
+    box-shadow: 0px 0px 13.594px rgb(126 123 160 / 15%);
+    border-radius: 9.22518px;
+}
+
+
+.acction>.flex>p{
+    
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 13px;
+    text-align: center;
+    color: #3279CC;
+    margin-right: 20px;
+}
+
+.acction>.flex>h1{
+
+    margin-left: 20px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #4C4C66;
+}
+.acction>.flex{
+    background: rgba(196, 196, 196, 0.08);
+    border-radius: 15px;
+    align-items: center;
+    justify-content:space-between;
+    height: 50px;
+
+}
+.eeee{
+    margin-top: 70px;
+}
+
+.acction>ul{
+    margin-top: 20px;
+}
+.acction>ul>li{
+    margin-left: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+form{
+    display: contents;
+}
+/* .centerdiv{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+} */
