@@ -650,68 +650,72 @@ function removeElement(array, elem) {
 }
 
 $('.testbtn').on('click',function(){
-    console.log("formdata")
-    console.log($("#form_id").serialize())
-    console.log("file imge")
-    console.log(alerts)
+    // console.log("formdata")
+    // console.log($("#form_id").serialize())
+    // console.log("file imge")
+    // console.log(alerts)
+   var form_data = $("#form_id").serialize()
+    $.ajax({
+    url: 'addproduction', // point to server-side PHP script 
+    cache: false,
+    contentType: false,
+    processData: false,
+    data: form_data,                         
+    type: 'post',
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+    },
+    success: function(ss){
+    console.log(ss);
+          }
+      });
 })
 
 $('.btnsave').on('click', function() {
-var i;
-if(alerts.length){
-  $(".listldimg>li").remove();
-  var i;
-  listfileimg()
-  $('.btnsave').addClass("btnoneven")
-  $('.listldimg>li.a').append(`<div class="loader"></div>`)
-}
-var ld = 0; 
+    var i;
+    if(alerts.length){
+    $(".listldimg>li").remove();
+    var i;
+    listfileimg()
+    $('.btnsave').addClass("btnoneven")
+    $('.listldimg>li.a').append(`<div class="loader"></div>`)
+    }
+    var ld = 0; 
 
+    for (i = 0; i < alerts.length; i++) {
+    if(alerts[i]){
+        var form_data = new FormData();                  
+        form_data.append('file', alerts[i][0]);
+        $.ajax({
+            url: 'upload', 
+            cache: false,
+            contentType: false,
+            processData: false,
+            data: form_data,                         
+            type: 'post',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                Aa:i
+            },
+            success: function(ss){
+                console.log(ss);
+                ld+=1
+                var aa = $(`.listldimg>li.${ss}>div.loader`);
+                aa.removeClass("loader")
+                aa.addClass("laa")
+                if(ld==alerts.length){
+                    setTimeout(function()  {   
+                            alerts= [];
+                            $('.btnsave').removeClass("btnoneven")
+                            console.log('เรียบร้อย');
+                        }, 2000);
+                    ld = 0;
+                }
+            }
+        });
 
-
-
-for (i = 0; i < alerts.length; i++) {
-  if(alerts[i]){
-  var form_data = new FormData();                  
-  form_data.append('file', alerts[i][0]);
-$.ajax({
-  url: 'upload', // point to server-side PHP script 
-  cache: false,
-  contentType: false,
-  processData: false,
-  data: form_data,                         
-  type: 'post',
-  headers: {
-      'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
-     Aa:i
-  },
-  success: function(ss){
-    console.log(ss);
-      ld+=1
-      var aa = $(`.listldimg>li.${ss}>div.loader`);
-      aa.removeClass("loader")
-      aa.addClass("laa")
-      if(ld==alerts.length){
-          setTimeout(
-              function() 
-              {   
-                  alerts= [];
-                  $('.btnsave').removeClass("btnoneven")
-              }, 2000);
-              ld = 0;
-           }
-          }
-      });
-  }
-  else{
-      if(ld==alerts.length-1){
-                  $('.btnsave').removeClass("btnoneven")
-              ld = 0;
-           }
-          ld+=1
-  }
-
-}
+        }
+    }
 });
 
 

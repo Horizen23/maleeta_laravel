@@ -21,9 +21,9 @@ Route::get('/intent_Linebot', function () {
     return view('adminpage/views/intentbot');
 });
 
-Route::get('/user_information', function () {
-    return view('adminpage/views/user_ifm');
-});
+// Route::get('/user_information', function () {
+//     return view('adminpage/views/user_ifm');
+// });
 Route::get('/Employee_information', function () {
     return view('adminpage/views/employee');
 });
@@ -41,7 +41,9 @@ Route::get('/Stock', function () {
 Route::post('/user',[UserAuth::class,'userlogin']);
 
 Route::get('/login',[UserAuth::class,'clecklogin']);
+Route::get('/user_information',[UserAuth::class,'test']);
 Route::get('/logut',[UserAuth::class,'userlogut']);
 Route::post('/upload',[UserAuth::class,'upload']);
+Route::post('/addproduction',[UserAuth::class,'addproduction']);
 
 //php artisan optimize

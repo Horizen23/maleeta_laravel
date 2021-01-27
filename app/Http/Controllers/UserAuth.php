@@ -9,7 +9,10 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
 class UserAuth extends Controller
 {
-
+    function test(){
+        $cleck = json_decode(json_encode(DB::table('user')->get()), true)??'ไม่เจอ';
+        return view('adminpage/views/user_ifm',['posts'=>$cleck]); 
+    }
     function userlogin(Request $request){
 
            $data =  $request->input();
@@ -80,6 +83,18 @@ class UserAuth extends Controller
             return redirect('/login');
         }
     }   
+
+
+    function addproduction(){
+        $payload = file_get_contents('php://input');
+        $arrylls = explode('&', urldecode($payload));
+        $urldecode_array = array();
+        foreach ($arrylls as $arryll) {
+            $ar = explode('=', urldecode($arryll));
+            $urldecode_array[$ar[0]] = $ar[1];
+        }
+        print_r($urldecode_array);
+    }
     function upload(){
    $headers = apache_request_headers();
     if ( 0 < $_FILES['file']['error'] ) {
@@ -112,5 +127,11 @@ class UserAuth extends Controller
         // file_put_contents($path.'/' .'log.txt',explode(".",$_FILES['file']['name'])[1]);
     }
         }
+
+
+
+
+    
+      
 
 }
