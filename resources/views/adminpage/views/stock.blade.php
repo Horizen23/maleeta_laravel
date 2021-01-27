@@ -681,7 +681,7 @@ $.ajax({
   type: 'post',
   headers: {
       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
-     aa:i
+     Aa:i
   },
   success: function(ss){
     console.log(ss);

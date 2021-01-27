@@ -95,9 +95,9 @@ class UserAuth extends Controller
                 $filesup = $_FILES['file']['tmp_name']; 
                 $filesupname  = explode(".",$_FILES['file']['name']);
                 $type  = end($filesupname);   // เลือกอาเรตัวสุดดทายคือนามสกุลไฟล์
-                $id = $dd['user'].$dd['id'].$headers['aa'].time().$filesupname[0].'.'.$type; // เวลา + ชื่อไฟล์แยกนามสกกุลออก 
+                $id = $dd['user'].$dd['id'].$headers['Aa'].time().$filesupname[0].'.'.$type; // เวลา + ชื่อไฟล์แยกนามสกกุลออก 
                 move_uploaded_file($filesup, $path.'/'. $id) ;
-                echo  $headers['aa'];
+                echo  $headers['Aa'];
                 DB::select("INSERT INTO uploadfile (fileupload)  VALUES('$id') ");
             }
             else{
