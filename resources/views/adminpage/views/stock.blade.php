@@ -665,7 +665,9 @@ if(alerts.length){
   $('.btnsave').addClass("btnoneven")
   $('.listldimg>li.a').append(`<div class="loader"></div>`)
 }
-var ld = 0;
+var ld = 0; 
+
+
 
 
 for (i = 0; i < alerts.length; i++) {
