@@ -63,7 +63,6 @@ class UserAuth extends Controller
         return view('login');
     }   
 
-
     function admin(){
         if(session()->has('accessToken'))
         {   
@@ -76,8 +75,7 @@ class UserAuth extends Controller
                 session()->pull('accessToken');
                 return redirect('/login');
             }
-            
-         
+
         }
         else
         {   
