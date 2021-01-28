@@ -76,6 +76,7 @@ class UserAuth extends Controller
                 session()->pull('accessToken');
                 return redirect('/login');
             }
+            
          
         }
         else
