@@ -27,14 +27,14 @@
             <h1>จำนวน</h1>
             <div class="input_apd">
                 <p class="countid">Full Name</p>
-                <input id="countid" type="text" name="countid">
+                <input id="countid" type="number" name="countid">
             </div>
         </div>
         <div class="input_addproduct">
             <h1>ราคา</h1>
             <div class="input_apd">
                 <p class="pliceid" >Full Name</p>
-                <input id="pliceid" type="text" name="pliceid">
+                <input id="pliceid" type="number" name="pliceid">
             </div>
         </div>
         <div class="input_addproduct hcommentid">
@@ -110,417 +110,27 @@
       </thead>
 
       <tbody>
-          <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
-          </tr>      <tr class="tbbodylist">
-              <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
-              <td>ML12345</td>
-              <td>เสื้อยืดสไตด์</td>
-              <td> 
-                  <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
-                  วางขาย
-              </td>
-              <td>21/1/2562</td>
-              <td>5</td>
-              <td class="th_tr_r">94  ฿</td>
-              <td>
-                  <div class="contro">
-                      <p class="a  "> show</p>
-                      <p class="b ">delert</p>
-                      <p class="a "> edit</p>
-                  </div>
-
-              </td>
-          </tr>
+           @foreach ($posts as $post)
+            <tr class="tbbodylist">
+                <td class="headcheckbox"> <input type="checkbox" class="checkbox" value="#"/><span>&nbsp;</span></td>
+                <td> {{ $post["id_product"] }}</td>
+                <td>{{ $post["name_product"] }}</td>
+                <td> 
+                    <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="3" cy="3" r="3" fill="#007F00"/></svg>
+                    {{ $post["status"] }}
+                </td>
+                <td>{{ $post["dateup"] }}</td>
+                <td>{{ $post["price"] }}</td>
+                <td class="th_tr_r">{{ $post["amount"] }} ฿</td>
+                <td>
+                    <div class="contro">
+                        <p class="a  "> show</p>
+                        <p class="b delerteproduction" id="{{ $post["id_product"] }}">delert</p>
+                        <p class="a "> edit</p>
+                    </div>
+  
+                </td>
+            @endforeach
       </tbody>
   </table>
 </div>
@@ -538,9 +148,21 @@ $(document).ready(function(){
     $('.form_addproduct').css('animation','show 2s')
   });
   $(".form_addproduct>img").click(function(){
+    $.ajaxSetup({
+        url: 'Stock',
+        headers: {
+          'path': "cn"
+        },
+        success: function success(result) {
+          $(".cbody").html(result);
+        }
+      });
+      $.ajax();
+        
       $('.form_addproduct').css('display','none')
       $('.tabel').css('display','block')
       $('.tabel').css('animation','show 2s')
+    
   });
   $("input.seach").on("keyup", function() {
   var value = $(this).val().toLowerCase();
@@ -656,7 +278,7 @@ $('.testbtn').on('click',function(){
     // console.log(alerts)
    var form_data = $("#form_id").serialize()
     $.ajax({
-    url: 'addproduction', // point to server-side PHP script 
+    url: 'tt', // point to server-side PHP script 
     cache: false,
     contentType: false,
     processData: false,
@@ -666,9 +288,27 @@ $('.testbtn').on('click',function(){
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
     },
     success: function(ss){
-    console.log(ss);
+        console.log("สำเร็ข")
+       
           }
       });
+})
+$('.delerteproduction').on('click',function(){
+    $.ajax({
+    url: 'delete', 
+    cache: false,
+    contentType: false,
+    processData: false,
+    type: 'post',
+    headers: {
+        Aa: this.id,
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+    },
+    success: function(ss){
+        resert();
+          }
+      });
+   
 })
 
 $('.btnsave').on('click', function() {
@@ -737,6 +377,18 @@ for (i = 0; i < alerts.length; i++) {
   }
 }
 
+}
+function resert(){
+    $.ajaxSetup({
+        url: 'Stock',
+        headers: {
+          'path': "cn"
+        },
+        success: function success(result) {
+          $(".cbody").html(result);
+        }
+      });
+      $.ajax();
 }
 
 

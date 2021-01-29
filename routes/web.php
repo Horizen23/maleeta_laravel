@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserAuth;
+use App\Http\Controllers\Add_product;
+use App\Http\Controllers\Index_admin;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,16 +36,21 @@ Route::get('/Product_car', function () {
     return view('adminpage/views/product');
 });
 
-Route::get('/Stock', function () {
-    return view('adminpage/views/stock');
-});
+// Route::get('/Stock', function () {
+//     return view('adminpage/views/stock');
+// });
 
 Route::post('/user',[UserAuth::class,'userlogin']);
 
 Route::get('/login',[UserAuth::class,'clecklogin']);
 Route::get('/user_information',[UserAuth::class,'test']);
+Route::get('/Stock',[Index_admin::class,'stock']);
 Route::get('/logut',[UserAuth::class,'userlogut']);
 Route::post('/upload',[UserAuth::class,'upload']);
 Route::post('/addproduction',[UserAuth::class,'addproduction']);
+
+
+Route::post('/tt',[Add_product::class,'addproduct']);
+Route::post('/delete',[Index_admin::class,'delete']);
 
 //php artisan optimize
